@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio — Kahlil Wassell</title>
+<meta name="description" content="A clean, contemporary studio session &mdash; natural light and simple styling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Kahlil <span>Wassell</span></a>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="nike.html">Nike</a>
+      <a href="saucony.html">Saucony</a>
+      <a href="graduation.html">Graduation</a>
+      <a href="tank.html" class="active">Studio</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wrap gallery-head">
+  <p class="eyebrow">Studio</p>
+  <h1 class="section-title">Portrait Session</h1>
+  <p class="lead">A clean, contemporary studio session &mdash; natural light and simple styling.</p>
+</section>
+
+<div class="wrap">
+  <div class="masonry" data-gallery="tank" data-count="12"></div>
+</div>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-name">Let&rsquo;s work<br>together.</div>
+      <div class="footer-links">
+        <a href="mailto:kahlilwassell@gmail.com">kahlilwassell@gmail.com</a>
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <span>Representation &mdash; Available</span>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Kahlil Wassell. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

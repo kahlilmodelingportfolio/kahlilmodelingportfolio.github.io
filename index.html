@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kahlil Wassell — Model</title>
+<meta name="description" content="Modeling portfolio of Kahlil Wassell — athletic, editorial and campaign work including Nike and Saucony.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Kahlil <span>Wassell</span></a>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="nike.html">Nike</a>
+      <a href="saucony.html">Saucony</a>
+      <a href="graduation.html">Graduation</a>
+      <a href="tank.html">Studio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <img src="images/graduation/01.jpg" alt="Kahlil Wassell portrait">
+  <div class="hero-overlay">
+    <h1 class="hero-name">Kahlil<br><em>Wassell</em></h1>
+    <p class="hero-sub">Model &middot; Athlete &middot; Campaigns</p>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="about-portrait">
+      <img src="images/tank/01.jpg" alt="Kahlil Wassell studio portrait">
+    </div>
+    <div>
+      <p class="eyebrow">About</p>
+      <h2 class="section-title">Movement, presence,<br>and a runner's edge.</h2>
+      <p class="lead">
+        Kahlil Wassell is a model whose work bridges athletic performance and editorial
+        stillness. From national running campaigns with Nike and Saucony to clean studio
+        portraiture, his range moves easily between motion and poise.
+      </p>
+      <!-- EDIT ME: replace the placeholder stats below with your real measurements -->
+      <dl class="stats">
+        <div><dt>Height</dt><dd>6&#39;1&#8243;</dd></div>
+        <div><dt>Based in</dt><dd>Chicago</dd></div>
+        <div><dt>Hair</dt><dd>Black</dd></div>
+        <div><dt>Eyes</dt><dd>Brown</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- Collections -->
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Selected Work</p>
+    <h2 class="section-title" style="margin-bottom:36px;">Collections</h2>
+    <div class="collections">
+      <a class="collection-card" href="nike.html">
+        <img src="images/nike/02.jpg" alt="Nike campaign">
+        <span class="cap"><span>Campaign</span><h3>Nike &mdash; Chicago Marathon</h3></span>
+      </a>
+      <a class="collection-card" href="saucony.html">
+        <img src="images/saucony/01.jpg" alt="Saucony campaign">
+        <span class="cap"><span>Campaign</span><h3>Saucony &mdash; SS26</h3></span>
+      </a>
+      <a class="collection-card" href="graduation.html">
+        <img src="images/graduation/02.jpg" alt="Graduation studio portraits">
+        <span class="cap"><span>Portraits</span><h3>Graduation</h3></span>
+      </a>
+      <a class="collection-card" href="tank.html">
+        <img src="images/tank/04.jpg" alt="Studio portraits">
+        <span class="cap"><span>Studio</span><h3>Portrait Session</h3></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact / footer -->
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-name">Let&rsquo;s work<br>together.</div>
+      <div class="footer-links">
+        <a href="mailto:kahlilwassell@gmail.com">kahlilwassell@gmail.com</a>
+        <!-- EDIT ME: add your Instagram / agency links below -->
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <span>Representation &mdash; Available</span>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Kahlil Wassell. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
